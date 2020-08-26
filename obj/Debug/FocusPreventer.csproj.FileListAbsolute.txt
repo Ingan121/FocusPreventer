@@ -1,0 +1,10 @@
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\bin\Debug\FocusPreventer.exe.config
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\bin\Debug\FocusPreventer.exe
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\bin\Debug\FocusPreventer.pdb
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.csprojAssemblyReference.cache
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.Form1.resources
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.Properties.Resources.resources
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.csproj.GenerateResource.cache
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.exe
+C:\Users\User\source\repos\FocusPreventer\FocusPreventer\obj\Debug\FocusPreventer.pdb
