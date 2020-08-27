@@ -31,3 +31,6 @@
 9. Launch the patched program, find for "Always On Top" option (Rainmeter: right-click the widget → Settings → Position → Topmost), then enable it.
 10. If there is no such option, use any "Always On Top" program. (just google for it)
 11. Use this FocusPreventer program to prevent the patched programs from getting focus on click, if you want to interact with the program in fullscreen games or such.
+
+## Reference
+[Windows 8 Layered Windows Over Metro Apps - Stack Overflow](https://stackoverflow.com/a/13497452)
