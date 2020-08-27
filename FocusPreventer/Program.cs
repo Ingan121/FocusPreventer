@@ -16,7 +16,16 @@ namespace FocusPreventer
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            string[] args = Environment.GetCommandLineArgs();
+            if (args.Length >= 2)
+            {
+                if((!args[1].Contains("class") && !args[1].Contains("title") && !args[1].Contains("both")) || args[1].Contains("both") && args.Length < 4)
+                {
+                    MessageBox.Show("FocusPreventer.exe /class (class)\nFocusPreventer.exe /title (title)\nFocusPreventer.exe /both (class) (title)", "FocusPreventer Command-line Arguments");
+                    return;
+                }
+            }
+            Application.Run(new FocusPreventer());
         }
     }
 }

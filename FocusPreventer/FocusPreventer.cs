@@ -12,7 +12,7 @@ using System.Windows.Forms;
 
 namespace FocusPreventer
 {
-    public partial class Form1 : Form
+    public partial class FocusPreventer : Form
     {
         private const int GWL_EXSTYLE = -20;
         private const int WS_EX_NOACTIVATE = 0x08000000;
@@ -56,9 +56,29 @@ namespace FocusPreventer
             }
         }
 
-        public Form1()
+        public FocusPreventer()
         {
             InitializeComponent();
+            string[] args = Environment.GetCommandLineArgs();
+            if (args.Length >= 3)
+            {
+                if (args[1].Contains("class"))
+                {
+                    IntPtr hWnd = new IntPtr(FindWindow(args[2], null));
+                    SetWindowUnfocusable(hWnd);
+                }
+                else if (args[1].Contains("title"))
+                {
+                    IntPtr hWnd = new IntPtr(FindWindow(null, args[2]));
+                    SetWindowUnfocusable(hWnd);
+                }
+                else if (args[1].Contains("both"))
+                {
+                    IntPtr hWnd = new IntPtr(FindWindow(args[2], args[3]));
+                    SetWindowUnfocusable(hWnd);
+                }
+                Close();
+            }
         }
 
         private void PreventFocusFromClassBtn_Click(object sender, EventArgs e)

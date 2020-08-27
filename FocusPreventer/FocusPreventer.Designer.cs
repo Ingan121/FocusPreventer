@@ -1,6 +1,6 @@
 ﻿namespace FocusPreventer
 {
-    partial class Form1
+    partial class FocusPreventer
     {
         /// <summary>
         /// 필수 디자이너 변수입니다.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FocusPreventer));
             this.textBox = new System.Windows.Forms.TextBox();
             this.PreventFocusFromClassBtn = new System.Windows.Forms.Button();
             this.VersionLabel = new System.Windows.Forms.Label();
@@ -136,7 +136,9 @@
             this.Controls.Add(this.PreventFocusFromClassBtn);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form1";
             this.Text = "FocusPreventer";
             this.ResumeLayout(false);
