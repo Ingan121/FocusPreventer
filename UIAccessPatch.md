@@ -1,6 +1,6 @@
 # UIAccess Patch
 * This patch enables UIAccess mode which allows super-topmost mode.
-* Super-topmost mode allows the patched program to stay on top of almost all windows, including immersive(10) / metro(8) UI, fullscreen UWP/metro app, and games in enhanced fullscreen mode.
+* Super-topmost mode allows the patched program to stay on top of almost all windows, including immersive(10) / metro(8) UI, fullscreen UWP/metro app, and games in [optimized fullscreen mode](https://devblogs.microsoft.com/directx/demystifying-full-screen-optimizations/).
 
 ## Notice
 * This is not guaranteed to work in all programs.
