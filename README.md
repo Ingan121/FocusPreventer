@@ -3,7 +3,7 @@
 ![Screenshot](https://raw.githubusercontent.com/Ingan121/FocusPreventer/master/scrsht.png)
 
 ## What you can do with this
-* Use Rainmeter (or any other application, untested yet) as a gaming overlay for fullscreen games.
+* Use Rainmeter (or any other application that UIAccess patch works) as a gaming overlay for fullscreen games.
   * Requires [UIAccess patch + resigning with a self-signed certificate](https://github.com/Ingan121/FocusPreventer/blob/master/UIAccessPatch.md).
   * The above process makes them appear on top of fullscreen games; this program just makes it possible to interact with them without minimizing the game.
   * Textboxes may not work.
